@@ -2,7 +2,7 @@ from django.db import models
 
 class Beverage(models.Model):
     name = models.CharField(max_length=50)
-    price = models.FloatField()
+    price = models.IntegerField()
     quantity = models.IntegerField()
 
     def __str__(self):
@@ -10,7 +10,7 @@ class Beverage(models.Model):
 
 class Coin(models.Model):
     name = models.CharField(max_length=50)
-    value = models.FloatField()
+    value = models.IntegerField()
     quantity = models.IntegerField()
 
     def __str__(self):
