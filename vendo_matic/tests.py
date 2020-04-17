@@ -5,7 +5,7 @@ from rest_framework.views import status
 from .models import Beverage
 from .serializers import BeverageSerializer
 
-# Create your tests here.
+# Test creation for GET request
 
 class BaseViewTest(APITestCase):
     client = APIClient()
