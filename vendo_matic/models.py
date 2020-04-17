@@ -1,13 +1,10 @@
 from django.db import models
 
-# class VendingMachine(models.Model):
-#     name = models.CharField(max_length=50)
-#     total_coins = models.IntegerField()
-#     purchase_price = models.IntegerField()
+class VendingMachine(models.Model):
+    name = models.CharField(max_length=50)
+    total_coins = models.IntegerField()
+    purchase_price = models.IntegerField()
     
-#     class Meta:
-
-
 
 class Beverage(models.Model):
     name = models.CharField(max_length=50)

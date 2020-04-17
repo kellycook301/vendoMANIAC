@@ -7,7 +7,7 @@ router = routers.DefaultRouter()
 router.register('inventory', views.BeverageView)
 router.register('coin', views.CoinView)
 
-from vendo_matic.views import inventory_detail_view 
+# from vendo_matic.views import inventory_detail_view 
 
 urlpatterns = [
     path('', include(router.urls)),
