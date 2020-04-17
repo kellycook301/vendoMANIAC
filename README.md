@@ -22,7 +22,9 @@ pipenv install djangorestframework
 pipenv shell
 ```
 
-4. Run server
+4. cd into vendoMANIAC 
+
+5. Run server
 ```
 python manage.py runserver
 ```
