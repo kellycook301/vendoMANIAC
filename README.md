@@ -23,6 +23,9 @@ pipenv shell
 ```
 
 4. cd into vendoMANIAC 
+```
+cd vendoMANIAC
+```
 
 5. Run server
 ```
